@@ -1,0 +1,133 @@
+
+.login-wrap{
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 46%;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20240919/pngtree-a-background-of-orange-blue-and-yellow-gradients-with-gritty-appearance-image_16233934.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+}
+
+.background::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 54%;
+    background: #f8f9fa;
+    bottom: 0;
+    left: 0;
+}
+
+.todo-text {
+    position: absolute;
+    /* Ensures it can be placed anywhere on the screen */
+    z-index: 2;
+    /* Higher than background */
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    /* Adjust color for visibility */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+    /* Centering the text */
+    top: 8%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+}
+
+
+.form-container {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: 94vh;
+    overflow-y: scroll;
+    padding: 50px 0;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 60%;
+    
+}
+
+/* Heading */
+.form-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+/* Input Fields */
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.form-container input:focus {
+    border-color: #ff5e62;
+    box-shadow: 0px 0px 5px rgba(255, 94, 98, 0.5);
+}
+
+.form-container button {
+    width: 95%;
+    padding: 10px;
+    background: #007BFF;
+    /* Blue background */
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    /* Different font */
+    font-weight: bold;
+    /* Make the font bold */
+    transition: 0.3s ease-in-out;
+}
+
+.form-container button:hover {
+    background: #0056b3;
+}
+
+/* Signup Link */
+.form-container p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.form-container p a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container p a:hover {
+    text-decoration: underline;
+}

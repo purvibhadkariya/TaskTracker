@@ -1,0 +1,158 @@
+
+.main-container{
+
+}
+
+.stats{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.left-stat{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 15px;
+}
+
+.left-stat span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+    height: 78vh;
+    overflow-y: scroll;
+    padding: 20px 0;
+}
+
+.card-container{
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #EAECF0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 250px;
+    box-shadow: 4px 5px 12px -3px rgb(202, 201, 201);
+}
+
+.card-container .date{
+    font-size: 13px;
+}
+
+.head-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.left{
+    width: 70%;
+}
+
+.left .date{
+    font-size: 12px;
+    font-weight: 500;
+    color: #868789;
+}
+
+.right .status{
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+}
+
+.right .red .dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #F63D68;
+}
+
+.right .red{
+    background-color: #FFF1F3;
+    color: #F04438;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.right .green .dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #027A48;
+}
+
+.right .green{
+    background-color: #ECFDF3;
+    color: #027A48;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.right .blue .dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #5865F1;
+}
+
+.right .blue{
+    background-color: #EEF0FE;
+    color: #505CDB;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.right .red .dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #F63D68;
+}
+
+.right .red{
+    background-color: #FFF1F3;
+    color: #F04438;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.btm{
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.p{
+    cursor: pointer;
+    display: flex;
+    column-gap: 20px;
+}
+
+.descp{
+    height: 50%;
+}

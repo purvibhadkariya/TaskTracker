@@ -1,0 +1,11 @@
+.content{
+    width: calc(100% - 220px );
+    height: 100vh;
+    padding: 50px;
+}
+
+.head{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

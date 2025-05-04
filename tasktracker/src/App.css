@@ -1,0 +1,30 @@
+.App{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbfcfb;
+}
+
+
+.invalid-feedback{
+  text-align: start;
+}
+
+
+.valid-feedback{
+  text-align: start;
+}
+
+
+
+*{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}

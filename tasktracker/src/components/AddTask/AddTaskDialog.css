@@ -1,0 +1,99 @@
+.dialog-main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 74vh;
+    border-radius: 8px;
+    border: none;
+    padding: 30px;
+}
+.dialog-main-container:focus-visible {
+    outline: none;
+}
+
+.form-label{
+    width: 100%;
+    text-align: start;
+}
+
+.dialog-main-container .shade-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.dialog-main-container .close {
+    position: absolute;
+    cursor: pointer;
+    right: 30px;
+    top: 46px;
+}
+.dialog-main-container .head-section {
+    margin: auto;
+}
+.dialog-main-container .head-section .logo {
+    width: 100%;
+}
+.dialog-main-container .dialog-content {
+    text-align: center;
+    margin: 40px 0;
+}
+.dialog-main-container .dialog-content .title {
+    font-size: 22px;
+}
+.dialog-main-container .dialog-content .title span {
+    color: red;
+}
+.dialog-main-container .dialog-content .sub-text {
+    margin: 10px;
+    font-size: 15px;
+}
+.dialog-main-container .item-wrap {
+    margin-left: 40px;
+}
+.dialog-main-container .item-wrap .name {
+    font-size: 16px;
+}
+.dialog-main-container .item-wrap input {
+    border: 1px solid rgba(217, 215, 215, 1);
+    width: 94%;
+    padding: 10px;
+    margin-top: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.dialog-main-container .item-wrap .warn-text {
+    color: red;
+    font-size: 12px;
+}
+.dialog-main-container .community {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.dialog-main-container .community .logo {
+    cursor: pointer;
+}
+.dialog-main-container .otp-input {
+    border: 1px solid rgba(217, 215, 215, 1);
+    border-radius: 8px;
+    width: 74px !important;
+    height: 74px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    caret-color: blue;
+}
+.dialog-main-container .gap {
+    width: 20px;
+}
+.dialog-main-container .footer-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.form-wrap{
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+  pre_build:
+    commands:
+      - echo "creating ENV file"
+      - ./scripts/build/create-env.sh $env
+  build:
+    commands:
+      - echo "building the application"
+      - npm install
+      - npm run build
+  post_build:
+    commands:
+      - echo "copying whole folder"
+artifacts:
+  files:
+    - '**/*'
+cache: 
+  paths:
+    - "./node_modules/**/*"
